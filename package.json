@@ -1,0 +1,36 @@
+{
+  "name": "ahj-homeworks-http-help-desk",
+  "version": "1.0.0",
+  "description": "Homework: https://github.com/netology-code/ahj-homeworks/tree/AHJ-50/http#helpdesk",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/neondoll/ahj-homeworks-http-help-desk.git"
+  },
+  "author": "neondoll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neondoll/ahj-homeworks-http-help-desk/issues"
+  },
+  "homepage": "https://github.com/neondoll/ahj-homeworks-http-help-desk#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@stylistic/eslint-plugin": "^2.3.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0"
+  }
+}
